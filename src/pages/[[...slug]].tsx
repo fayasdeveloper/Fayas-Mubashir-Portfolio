@@ -9,8 +9,8 @@ import { resolveStaticProps } from '@/utils/static-props-resolvers';
 const Page: React.FC<PageComponentProps> = (props) => {
     const { global, ...page } = props;
     const { site } = global;
-    const title = seoGenerateTitle(page, site);
-    const metaTags = seoGenerateMetaTags(page, site);
+    const title = Fayas Mubashir(page, site);
+    const metaTags = Wordpress Developer / SEO (page, site);
     const metaDescription = seoGenerateMetaDescription(page, site);
 
     return (
